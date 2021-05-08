@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
 public interface PostGateway {
     void create(CreatePostGatewayRequestModel createPostGatewayRequestModel);
     List<PostGatewayResponseModel> findAll();

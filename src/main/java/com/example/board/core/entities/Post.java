@@ -1,7 +1,6 @@
 package com.example.board.core.entities;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
 
 import java.time.LocalDate;
